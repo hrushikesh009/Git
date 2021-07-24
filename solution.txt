@@ -1,0 +1,13 @@
+1.git init,notepad note.txt(to create notepad using git bash)
+2.git checkout -b Dev/Test
+3.git checkout Test, git add note1.txt note2.txt, git commit -m "Added note1/note2.txt"// added and committed in Test
+  git checkout Dev, git add note.txt, git commit -m "Added note.txt"// added and committed the note.txt in Dev
+4.notepad note.txt // to open and changed some text
+4.git diff, git status
+5.(on branch Dev)git branch main, git checkout main, git merge Dev, git merge Test
+6.To push- git remote add origin https://github.com/hrushikesh009/Git.git
+  git push -u origin main
+7.clone - git clone https://github.com/hrushikesh009/Git.git
+8.notepad solution.txt// Creating and adding commands
+9. First add and commit solution.txt
+10.git push -u origin main
